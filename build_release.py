@@ -13,6 +13,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parent
 PACKAGE_ROOT = "QQ农场监控-Mac"
+ARCHIVE_PREFIX = "qq-farm-mac"
 PROGRAM_FILES = (
     "farm.py",
     "all_friends.py",
@@ -119,7 +120,7 @@ def verify_archive(path, payload):
 def build(output_dir):
     version, payload = load_payload()
     output_dir.mkdir(parents=True, exist_ok=True)
-    archive_path = output_dir / (PACKAGE_ROOT + "-" + version + ".zip")
+    archive_path = output_dir / (ARCHIVE_PREFIX + "-" + version + ".zip")
     temporary = archive_path.with_suffix(".zip.tmp")
     try:
         with zipfile.ZipFile(temporary, "w", compression=zipfile.ZIP_DEFLATED) as archive:

@@ -6,7 +6,7 @@
 
 ## 下载与首次使用
 
-前往 [GitHub Releases](https://github.com/sakura1412/qq-farm-mac/releases/latest)，下载 **`QQ农场监控-Mac-1.0.0.zip`**，解压后使用。请下载发布页的这个安装包；GitHub 自动生成的 `Source code` 压缩包是源码。
+前往 [GitHub Releases](https://github.com/sakura1412/qq-farm-mac/releases/latest)，下载 **[`qq-farm-mac-1.0.0.zip`](https://github.com/sakura1412/qq-farm-mac/releases/download/v1.0.0/qq-farm-mac-1.0.0.zip)**，解压后使用。请下载发布页的这个安装包；GitHub 自动生成的 `Source code` 压缩包是源码。
 
 | 条件 | 说明 |
 | --- | --- |
