@@ -1,0 +1,39 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+environments/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Built release packages are attached to GitHub Releases
+dist/
+*.zip
+*.zip.tmp
+*.manifest.json
+
+# Personal runtime data and temporary files
+*.log
+friends-status*.json
+config.tmp
+monitor.lock
+.bootstrap.lock/
+.ready
+identity.json
+.env
+.env.*
+
+# Screenshots may contain account and friend information
+screenshots/
+captures/
+*.png
+!templates/*.png
+*.jpg
+*.jpeg
+*.webp
+
+# macOS metadata
+.DS_Store
+._*

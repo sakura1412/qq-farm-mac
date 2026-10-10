@@ -1,0 +1,8 @@
+PyAutoGUI==0.9.54
+opencv-python>=4.10,<5
+Pillow>=10,<13
+numpy>=1.26,<3
+pyobjc-core>=10,<12
+pyobjc-framework-Cocoa>=10,<12
+pyobjc-framework-Quartz>=10,<12
+pyobjc-framework-Vision>=10,<12

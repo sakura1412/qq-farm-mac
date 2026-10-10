@@ -1,0 +1,15 @@
+{
+  "region": null,
+  "threshold": 0.93,
+  "stealable_threshold": 0.92,
+  "interval_seconds": 180,
+  "max_pages": 100,
+  "max_harvest_clicks": 3,
+  "scroll_amount": -3,
+  "settle_seconds": 2,
+  "max_friends": 500,
+  "max_verification_passes": 6,
+  "max_operations": 10000,
+  "max_stale_icon_retries": 3,
+  "calibrated": false
+}
